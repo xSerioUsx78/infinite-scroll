@@ -60,6 +60,8 @@ const Index = () => {
   // }
 
   return (
+    // If you want use the custom way of scrolling you can add onScroll to this div
+    // onScroll={onScroll}
     <div id="scrollable" style={{height: '100vh', overflowY: 'auto'}}>
       <InfiniteScroll
       dataLength={posts.results.length}
